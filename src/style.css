@@ -6,3 +6,11 @@ body {
   margin: 60px auto;
   max-width: 600px;
 }
+header {
+  margin-bottom: 30px;
+}
+h1 {
+  text-align: center;
+  color: #724060;
+  font-size: 42px;
+}
