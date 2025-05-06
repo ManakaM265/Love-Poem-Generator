@@ -1,7 +1,7 @@
 function generatePoem(event) {
   event.preventDefault();
   new Typewriter("#generated-poem", {
-    strings: "Generating a joke for you, please wait...",
+    strings: "Generating a poem for you, please wait...",
     autoStart: true,
     delay: 1,
     cursor: "",
