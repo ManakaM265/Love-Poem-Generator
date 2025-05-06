@@ -14,3 +14,27 @@ h1 {
   color: #724060;
   font-size: 42px;
 }
+form {
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  display: flex;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+}
+.instructions {
+  padding: 16px;
+  border: 1px solid #a070a1;
+  border-radius: 50px;
+  font-size: 16px;
+  width: 80%;
+}
+.submit-button {
+  margin-left: 10px;
+  border: none;
+  width: 150px;
+  border-radius: 50px;
+  background-color: #a070a1;
+  color: white;
+  font-size: 16px;
+}
