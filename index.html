@@ -10,6 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>AI Poem Generator</title>
   </head>
   <body>
@@ -19,7 +20,7 @@
       </header>
 
       <main>
-        <form>
+        <form id="poem-generator-form">
           <input
             type="text"
             placeholder="Who is the poem for?"
@@ -30,7 +31,7 @@
           />
           <input type="submit" class="submit-button" />
         </form>
-        <div class="poem">
+        <div class="poem" id="generated-poem">
           Thoughts of him <br />
           Fill my head to the brim <br />
           I wonder if its the same <br />
