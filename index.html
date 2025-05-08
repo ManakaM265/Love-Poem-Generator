@@ -21,19 +21,22 @@
       </header>
 
       <main>
-        <form id="poem-generator-form">
-          <input
-            type="text"
-            placeholder="Who is the poem for?"
-            required
-            autofocus
-            autocomplete="off"
-            class="instructions"
-            id="user-instructions"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
-        <div class="poem" id="generated-poem"></div>
+        <div class="form-container">
+          <form id="poem-generator-form">
+            <input
+              type="text"
+              placeholder="Who is the poem for?"
+              required
+              autofocus
+              autocomplete="off"
+              class="instructions"
+              id="user-instructions"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="hint">e.g.: Mom, Dad, dog</div>
+        </div>
+        <div class="poem hidden" id="generated-poem"></div>
       </main>
       <footer>
         This AI project was coded by
