@@ -14,13 +14,22 @@ h1 {
   color: #724060;
   font-size: 42px;
 }
-form {
-  padding: 30px;
+
+.form-container {
   background-color: white;
+  padding: 30px;
   border-radius: 10px;
   margin-bottom: 30px;
-  display: flex;
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+}
+form {
+  display: flex;
+}
+
+.hint {
+  font-size: 12px;
+  margin-top: 5px;
+  opacity: 0.5;
 }
 .instructions {
   padding: 16px;
@@ -38,12 +47,17 @@ form {
   color: white;
   font-size: 16px;
 }
+
 .poem {
   background-color: white;
   padding: 20px;
   line-height: 2;
   border-left: 3px solid #a070a1;
   box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03);
+}
+
+.hidden {
+  display: none;
 }
 
 .poem strong {
